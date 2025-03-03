@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the bash script to restart the modem
+After=network.target
+
+[Service]
+Type=simple # Default type if not specified; appropriate for most scripts
+ExecStart=/usr/local/bin/restart-modem/restart-modem-python.sh
+
+[Install]
+WantedBy=multi-user.target  # Links the service to the multi-user runlevel

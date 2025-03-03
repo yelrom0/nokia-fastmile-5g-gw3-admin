@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily at 4am run of restart-modem.service
+
+[Timer]
+OnCalendar=*-*-* 4:00:00
+Persistent=true # Will run if missed as system was shutdown
+
+[Install]
+WantedBy=timers.target
