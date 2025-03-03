@@ -1,7 +1,11 @@
-# Nokia Fastmile 5G 3 Admin
+# Nokia Fastmile 5G Gateway 3 Admin
 
 This code is designed to auth and administer the Fastmile 5G Gateway via Python, 
-in order to more easily automate tasks and eventually integrate the device into Home Assistant
+in order to more easily automate tasks and eventually integrate the device into Home Assistant.
+
+NOTE: This was tested on a Fastmile 5G Gateway 3 with hardware version `3TG00799ABAA` and software version `1.2304.00.0075`. There are no guarentees it will work on any other hardware or software versions.
+
+Use these scripts at your own risk. I am not responsible or liable for any damage or issues caused by this software.
 
 ## Running
 
