@@ -1,3 +1,7 @@
 .env
 venv
 __pycache__
+error.txt
+login_web_app_nonce.txt
+nonce_data
+pubkey.pub
